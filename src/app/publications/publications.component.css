@@ -1,0 +1,33 @@
+.page-header {
+    align-items: flex-end;
+}
+
+.page-header-xs {
+    min-height: 50vh !important;
+}
+
+.page-subtitle {
+    margin-bottom: 100px;
+    padding-left: 20px;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
+}
+
+small {
+    font-size: 90%;
+}
+
+h6 {
+    font-size: 1.0rem;
+}
+
+.index {
+    text-align: left;
+}
+
+.list {
+    text-align: right;
+}

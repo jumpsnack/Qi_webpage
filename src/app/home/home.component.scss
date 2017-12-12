@@ -1,0 +1,17 @@
+.bannerStyle {
+  background-color: #ccc;
+  background-size: cover !important;
+  height: 100%;
+  width: 100%;
+}
+
+.bannerStyle .item {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+
+ }

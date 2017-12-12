@@ -1,0 +1,47 @@
+<div class="wrapper">
+  <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('http://qi.ucsd.edu/images/header-index-atkinson.jpg');">
+    <div class="filter">
+    </div>
+    <!--START--by Jumpsnack--->
+    <div class="td-name page-subtitle" >
+      <div class="container" >
+        MEMBERS
+      </div>
+    </div>
+    <!--END--by Jumpsnack--->
+  </div>
+  <br>
+  <div class="section profile-content">
+    <div class="container">
+      <div class="nav-tabs-navigation">
+        <div class="nav-tabs-wrapper">
+          <ngb-tabset [justify]="'left'" (tabChange)="onTabChanged($event)">
+            <ngb-tab [id]="'current'">
+              <ng-template ngbTabTitle>
+                <a routerLink="./">
+                  Current members
+                </a>
+              </ng-template>
+              <ng-template ngbTabContent >
+                <router-outlet></router-outlet>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab [id]="'past'">
+              <ng-template ngbTabTitle>
+                <!--<a routerLink="past">-->
+                  Past members
+                <!--</a>-->
+              </ng-template>
+              <ng-template ngbTabContent>
+                <app-past></app-past>
+                <!--<h3 class="text-muted">Not following anyone yet :(</h3>-->
+                <!--<br>-->
+                <!--<button class="btn btn-warning btn-round">Find artists</button>-->
+              </ng-template>
+            </ngb-tab>
+          </ngb-tabset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
