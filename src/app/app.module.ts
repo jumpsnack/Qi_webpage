@@ -22,6 +22,8 @@ import { NoticeComponent } from './notice/notice.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { MembersModule } from "./members/members.module";
+import { AgmCoreModule } from '@agm/core';
+
 
 
 @NgModule({
@@ -42,15 +44,19 @@ import { MembersModule } from "./members/members.module";
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
-
     FormsModule,
     RouterModule,
     AppRoutingModule,
     HomeModule,
-      MembersModule
+      MembersModule,
+      AgmCoreModule.forRoot({
+          apiKey: 'AIzaSyC8yg_gowVFOd_aIfPt4lYkGurpwbEoRbA'
+      })
   ],
     exports: [NgbModule],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

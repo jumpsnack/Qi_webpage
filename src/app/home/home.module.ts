@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -10,18 +10,19 @@ import { ComponentsModule } from '../components/components.module';
 
 import { NgxSiemaModule } from 'ngx-siema';
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
-
+import { LandingComponent } from './landing/landing.component';
 @NgModule({
     imports: [
         CommonModule,
-        BrowserModule,
+        BrowserAnimationsModule,
         FormsModule,
         RouterModule,
         ComponentsModule,
         NgxSiemaModule.forRoot(),
     ],
-    declarations: [ HomeComponent ],
+    declarations: [ HomeComponent, LandingComponent ],
     exports:[ HomeComponent ],
-    providers: []
+    providers: [
+    ]
 })
 export class HomeModule { }

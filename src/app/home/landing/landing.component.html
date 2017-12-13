@@ -1,0 +1,30 @@
+<div class="main">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="back-container" id="anim--back-from-right"></div>
+        <div id="anim--from-left" class="col-md-7 ml-auto mr-auto mr-auto" [@scrollAnimationFromLeft]="stateFromLeft">
+          <h2 class="title">CURIOSITY DRIVEN RESEARCH</h2>
+          <h5 class="description">To drive innovation, you must be innovative. The Qualcomm Institute at Uc San Diego represents an experiment in inventing the university research environment of the future, where ideas are born from curiosity and go beyond theory and into practice</h5>
+          <br>
+        </div>
+        <div class="col-md-3 ml-auto mr-auto info-img">
+          <!--<div class="animated-img" [@scrollAnimation]="state">-->
+            <!--<img src="http://qi.ucsd.edu/images/header-index-education.jpg" >-->
+          <!--</div>-->
+        </div>
+      </div>
+      <div class="row">
+        <div class="back-container" id="anim--back-from-left"></div>
+        <div class="col-md-3 ml-auto mr-auto info-img">
+
+        </div>
+        <div id="anim--from-right" class="col-md-7 ml-auto mr-auto text-right" [@scrollAnimationFromRight]="stateFromRight">
+          <h2 class="title">CURIOSITY DRIVEN RESEARCH<i class="fa fa-cloud cloud"></i></h2>
+          <h5 class="description">To drive innovation, you must be innovative. The Qualcomm Institute at Uc San Diego represents an experiment in inventing the university research environment of the future, where ideas are born from curiosity and go beyond theory and into practice</h5>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

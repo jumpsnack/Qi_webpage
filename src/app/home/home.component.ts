@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
 import { NgxSiemaOptions, NgxSiemaService } from 'ngx-siema';
 
 @Component({
@@ -11,22 +11,24 @@ export class HomeComponent implements OnInit {
 
 	imgags: string[];
 	imgIndex = 0;
-	public url: string;
+	@Input() public url: string;
 
-	constructor(private ngxSiemaService: NgxSiemaService) {	}
+	constructor() {	}
 
 	ngOnInit() {
-		this.imgags = [
-			"../../assets/img/daniel-olahh.jpg",
-			"../../assets/img/bruno-abatti.jpg",
-			"../../assets/img/antoine-barres.jpg",
-		];
-		this.url = this.imgags[this.imgIndex];
+		// this.imgags = [
+		// 	"../../assets/img/daniel-olahh.jpg",
+		// 	"../../assets/img/bruno-abatti.jpg",
+		// 	"../../assets/img/antoine-barres.jpg",
+		// ];
+		// this.url = this.imgags[this.imgIndex];
+		//
+		// setInterval(() => {
+		// 	// if(this.imgIndex >= this.imgags.length) this.imgIndex = 0;
+		// 	// this.url = this.imgags[this.imgIndex++];
+		// }, 5000);
 
-		setInterval(() => {
-			if(this.imgIndex >= this.imgags.length) this.imgIndex = 0;
-			this.url = this.imgags[this.imgIndex++];
-		}, 5000);
+		this.url = 'https://source.unsplash.com/collection/1186428/1024x768';
 	}
 
 	options: NgxSiemaOptions = {
