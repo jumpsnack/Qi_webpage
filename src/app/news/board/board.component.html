@@ -1,0 +1,90 @@
+<div class="row">
+
+  <div class="card col-md-4">
+    <div class="card-img-top"  [ngStyle]="{'background-image': 'url(http://calit2.net/images/articles/2016/SMARTfig1.jpg)'}">
+      <!--<img src="http://calit2.net/images/articles/2016/SMARTfig1.jpg">-->
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">Post title</h2>
+      <p class="card-text">Hello blahblagblahblah....</p>
+      <a href="#" class="btn-sm  btn-danger btn-round">Read More &rarr;</a>
+    </div>
+    <div class="card-footer text-muted">
+      Posted on January 1, 217
+    </div>
+  </div>
+  <div class="card col-md-4">
+    <div class="card-img-top"  [ngStyle]="{'background-image': 'url(http://calit2.net/images/articles/2016/SMARTfig1.jpg)'}">
+      <!--<img src="http://calit2.net/images/articles/2016/SMARTfig1.jpg">-->
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">Post title</h2>
+      <p class="card-text">Hello blahblagblahblah....</p>
+      <a href="#" class="btn-sm  btn-danger btn-round">Read More &rarr;</a>
+    </div>
+    <div class="card-footer text-muted">
+      Posted on January 1, 2017
+    </div>
+  </div>
+  <div class="card col-md-4">
+    <div class="card-img-top"  [ngStyle]="{'background-image': 'url(http://calit2.net/images/articles/2016/SMARTfig1.jpg)'}">
+      <!--<img src="http://calit2.net/images/articles/2016/SMARTfig1.jpg">-->
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">Post title</h2>
+      <p class="card-text">Hello blahblagblahblah....</p>
+      <a href="#" class="btn-sm  btn-danger btn-round">Read More &rarr;</a>
+    </div>
+    <div class="card-footer text-muted">
+      Posted on January 1, 2017
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="card col-md-4">
+    <div class="card-img-top" [ngStyle]="{'background-image': 'url('+test+')'}">
+      <!--<img src="http://www.yeongnam.com/Photo/2016/06/06/L20160606.010190756490001i1.jpg">-->
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">샌디에이고 스마트시티 해커톤대회, 계명대 박창은씨 1위</h2>
+      <p class="card-text">계명대 컴퓨터공학전공 박창은씨(4학년)가 캘리포니아대학 샌디에이고캠퍼스와 샌디에이고시, 퀄컴 등이 공동으로 주최한....</p>
+      <a [routerLink]="['../post']" [queryParams]="{postId: 135}" class="btn-sm  btn-danger btn-round">Read More &rarr;</a>
+    </div>
+    <div class="card-footer text-muted">
+      Posted on January 1, 2017
+    </div>
+  </div>
+  <div class="card col-md-4">
+    <div class="card-img-top" [ngStyle]="{'background-image': 'url(http://img.etnews.com/photonews/1606/808598_20160603153923_141_0002.jpg)'}">
+      <!--<img src="http://img.etnews.com/photonews/1606/808598_20160603153923_141_0002.jpg">-->
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">Post title</h2>
+      <p class="card-text">Hello blahblagblahblah....</p>
+      <a href="#" class="btn-sm  btn-danger btn-round">Read More &rarr;</a>
+    </div>
+    <div class="card-footer text-muted">
+      Posted on January 1, 2017
+    </div>
+  </div>
+  <div class="card col-md-4">
+    <div class="card-img-top"  [ngStyle]="{'background-image': 'url(http://calit2.net/images/articles/2016/SMARTfig1.jpg)'}">
+      <!--<img src="http://calit2.net/images/articles/2016/SMARTfig1.jpg">-->
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">Post title</h2>
+      <p class="card-text">Hello blahblagblahblah....</p>
+      <a href="#" class="btn-sm  btn-danger btn-round">Read More &rarr;</a>
+    </div>
+    <div class="card-footer text-muted">
+      Posted on January 1, 2017
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="ml-auto mr-auto text-center">
+
+    <ngb-pagination  [collectionSize]="70" [(page)]="page" aria-label="Default pagination"></ngb-pagination>
+  </div>
+
+</div>

@@ -1,0 +1,26 @@
+
+.card-img-top {
+    /*height: 140px;*/
+    overflow: hidden;
+
+    background-position: center center;
+    background-size: cover;
+    min-height: 20vh;
+    max-height: 999px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.card-img-top img {
+    /*max-width: 100%; height: auto;*/
+
+    /*vertical-align: middle;*/
+    /*display: inline-block;*/
+
+
+}
+
+.card-title {
+    font-size: 1.8em;
+}

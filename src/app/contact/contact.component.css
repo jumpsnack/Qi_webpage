@@ -5,3 +5,11 @@ agm-map {
 .page-header {
     min-height: 50vh;
 }
+
+.info {
+    padding-bottom: 5em;
+}
+
+h4 {
+    margin: 0.2em;
+}

@@ -19,7 +19,8 @@ import { ContactComponent } from "./contact/contact.component";
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
 	{ path: 'about',             component: AboutComponent },
-	{ path: 'news',             component: NewsComponent },
+	// { path: 'news',             component: NewsComponent },
+	{ path: 'news',             loadChildren: 'app/news/news.module#NewsModule' },
 	{ path: 'projects',             component: ProjectsComponent },
 	{ path: 'publications',             component: PublicationsComponent },
 	{ path: 'members',             loadChildren: 'app/members/members.module#MembersModule' },

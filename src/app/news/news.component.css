@@ -16,18 +16,3 @@
     font-weight: 200;
 }
 
-
-.card-img-top {
-    height: 140px;
-    overflow: hidden;
-}
-
-.card-img-top img {
-    width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-}
-
-.card-title {
-    font-size: 1.8em;
-}

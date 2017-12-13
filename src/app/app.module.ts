@@ -15,7 +15,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { AboutComponent } from './about/about.component';
-import { NewsComponent } from './news/news.component';
+// import { NewsComponent } from './news/news.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { NoticeComponent } from './notice/notice.component';
@@ -35,7 +35,7 @@ import { AgmCoreModule } from '@agm/core';
     NavbarComponent,
     FooterComponent,
     AboutComponent,
-    NewsComponent,
+    // NewsComponent,
     ProjectsComponent,
     PublicationsComponent,
     NoticeComponent,
