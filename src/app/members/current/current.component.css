@@ -1,8 +1,30 @@
 .img-circle {
-    max-width: 150px;
+    max-width: 170px;
+    /*overflow: hidden;*/
+
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*min-height: 20vh;*/
+    /*max-height: 999px;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*width: 100%;*/
 }
 
-h4 {
-    margin:0;
-    font-weight: 600;
+/*.wrapper {*/
+    /*height:200px;*/
+    /*width:200px;*/
+    /*overflow:hidden;*/
+    /*border-radius:50%;*/
+
+/*}*/
+
+/*.wrapper img {*/
+    /*-webkit-transform:translate(-50%);*/
+    /*margin-left:100px;*/
+/*}*/
+
+
+li {
+    margin: 3em;
 }

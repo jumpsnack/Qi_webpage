@@ -57,7 +57,10 @@ export class LandingComponent implements OnInit {
 		const secondComponentPosition = this.document.getElementById('anim--from-right').offsetTop
 			// + this.document.getElementById('anim--from-right').offsetHeight;
 
+		// const thirdComponent = this.document.getElementById('anim--center');
+
 		console.dir(this.document.getElementById('anim--from-right'));
+		console.dir(window);
 		console.log('compo : ' + firstComponentPosition + ', '+ secondComponentPosition+' // scroll : ' + scrollPosition);
 
 		if(scrollPosition >= firstComponentPosition) {
@@ -79,6 +82,18 @@ export class LandingComponent implements OnInit {
 			this.document.getElementById('anim--from-right').style.setProperty('animation', '');
 			this.document.getElementById('anim--back-from-left').style.setProperty('animation', '');
 		}
+
+		// let offset =thirdComponent.offsetTop + thirdComponent.offsetHeight;
+		// console.dir(thirdComponent.offsetTop + thirdComponent.offsetHeight);
+		//
+		// let newScroll = scrollPosition - 600;
+		// let newOffset = offset - 600;
+		//
+		// if(newScroll <= newOffset+30 ){
+		// 	thirdComponent.style.setProperty('right', ''+(newScroll*200/newOffset)+'px');
+		// 	thirdComponent.style.setProperty('opacity', ''+(newScroll)/newOffset);
+		// } else {
+		// }
 	}
 
 	ngOnInit() {
