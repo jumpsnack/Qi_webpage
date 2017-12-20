@@ -24,4 +24,8 @@ export class MembersComponent implements OnInit {
     alert('hhh')
   }
 
+	onDeactivate(){
+	  window.scrollTo(0, 0);
+  }
+
 }

@@ -29,7 +29,7 @@
                 </a>
               </ng-template>
               <ng-template ngbTabContent >
-                <router-outlet></router-outlet>
+                <router-outlet (deactivate)="onDeactivate()"></router-outlet>
               </ng-template>
             </ngb-tab>
             <ngb-tab [id]="'past'">

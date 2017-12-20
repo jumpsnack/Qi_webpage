@@ -52,12 +52,27 @@
                             <h6>Airound<br/><small>Funded from who somebody</small></h6>
                           </div>
                           <div class="col-md-7 col-sm-4 ml-auto mr-auto">
-                            <p>
+                            <div>
+                              <p>
+                                aldjflkajsdlfjalsjfl;ajsdflkajsldfj
+                                asdf;alsjdfajlf
+                                asdf;laksjdlfa
+                                sdflja;l
+                              </p>
+                              <hr/>
+                              <p class="collapsed-content" id="collapseExample2" [ngbCollapse]="isCollapsed2">
                               aldjflkajsdlfjalsjfl;ajsdflkajsldfj
                               asdf;alsjdfajlf
                               asdf;laksjdlfa
                               sdflja;l
-                            </p>
+                              </p>
+                            </div>
+                            <div class="row pull-right">
+                              <button class="btn btn-sm btn-just-icon"
+                                      (click)="isCollapsed2 = !isCollapsed2" [attr.aria-expanded]="!isCollapsed2" aria-controls="collapseExample2">
+                                <i class="fa fa-info" aria-hidden="true"></i>
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </li>
@@ -71,12 +86,27 @@
                             <h6>ADAS<br/><small>Funded from who somebody</small></h6>
                           </div>
                           <div class="col-md-7 col-sm-4 ml-auto mr-auto">
-                            <p>
-                              aldjflkajsdlfjalsjfl;ajsdflkajsldfj
-                              asdf;alsjdfajlf
-                              asdf;laksjdlfa
-                              sdflja;l
-                            </p>
+                            <div>
+                              <p>
+                                aldjflkajsdlfjalsjfl;ajsdflkajsldfj
+                                asdf;alsjdfajlf
+                                asdf;laksjdlfa
+                                sdflja;l
+                              </p>
+                              <hr/>
+                              <p class="collapsed-content" id="collapseExample" [ngbCollapse]="isCollapsed">
+                                aldjflkajsdlfjalsjfl;ajsdflkajsldfj
+                                asdf;alsjdfajlf
+                                asdf;laksjdlfa
+                                sdflja;l
+                              </p>
+                            </div>
+                            <div class="row pull-right">
+                              <button class="btn btn-sm btn-just-icon"
+                                      (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+                                <i class="fa fa-info" aria-hidden="true"></i>
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </li>
