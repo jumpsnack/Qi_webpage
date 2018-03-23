@@ -16,9 +16,9 @@ import { HomeModule } from './home/home.module';
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { AboutComponent } from './about/about.component';
 // import { NewsComponent } from './news/news.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { ProjectComponent } from './project/project.component';
 import { PublicationsComponent } from './publications/publications.component';
-import { NoticeComponent } from './notice/notice.component';
+import { PrototypeComponent } from './prototype/prototype.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { MembersModule } from "./members/members.module";
@@ -36,9 +36,9 @@ import { AgmCoreModule } from '@agm/core';
     FooterComponent,
     AboutComponent,
     // NewsComponent,
-    ProjectsComponent,
+    ProjectComponent,
     PublicationsComponent,
-    NoticeComponent,
+    PrototypeComponent,
     ContactComponent
   ],
   imports: [

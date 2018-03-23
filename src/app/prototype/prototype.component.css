@@ -1,0 +1,35 @@
+.page-header {
+    align-items: flex-end;
+}
+
+.page-header-xs {
+    min-height: 50vh !important;
+}
+
+.page-subtitle {
+    margin-bottom: 100px;
+    padding-left: 20px;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
+}
+
+.thumnail-container {
+    width: 128px;
+    height: 128px;
+
+overflow: hidden;
+
+    margin-right: 10px;
+}
+
+ .media-photo {
+    max-height: 128px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     position: absolute;
+     clip: rect(0px,128px,128px,0px);
+}

@@ -10,10 +10,10 @@ import { LandingComponent } from './landing/landing.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { AboutComponent } from "./about/about.component";
 import { NewsComponent } from "./news/news.component";
-import { ProjectsComponent } from "./projects/projects.component";
+import { ProjectComponent } from "./project/project.component";
 import { PublicationsComponent } from "./publications/publications.component";
 import { MembersComponent } from "./members/members.component";
-import { NoticeComponent } from "./notice/notice.component";
+import { PrototypeComponent } from "./prototype/prototype.component";
 import { ContactComponent } from "./contact/contact.component";
 
 const routes: Routes =[
@@ -21,10 +21,10 @@ const routes: Routes =[
 	{ path: 'about',             component: AboutComponent },
 	// { path: 'news',             component: NewsComponent },
 	{ path: 'news',             loadChildren: 'app/news/news.module#NewsModule' },
-	{ path: 'projects',             component: ProjectsComponent },
+	{ path: 'project',             component: ProjectComponent },
 	{ path: 'publications',             component: PublicationsComponent },
 	{ path: 'members',             loadChildren: 'app/members/members.module#MembersModule' },
-	{ path: 'notice',             component: NoticeComponent },
+	{ path: 'prototype',             component: PrototypeComponent },
 	{ path: 'contact',             component: ContactComponent },
 
     { path: 'user-profiles',     component: ProfileComponent },

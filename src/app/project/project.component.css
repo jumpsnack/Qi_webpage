@@ -1,0 +1,25 @@
+.page-header {
+    align-items: flex-end;
+}
+
+.page-header-xs {
+    min-height: 50vh !important;
+}
+
+.page-subtitle {
+    margin-bottom: 100px;
+    padding-left: 20px;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
+}
+
+.btn-sm {
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    padding: 0px !important;
+    font-size: 0pt;
+}
