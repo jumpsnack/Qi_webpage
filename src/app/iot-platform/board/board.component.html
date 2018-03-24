@@ -1,0 +1,40 @@
+<div class="wrapper">
+  <div class="page-header page-header-xs" data-parallax="true" style="background-color: #ffff; min-height: 10vh !important;">
+    <!--<div class="filter"></div>-->
+    <div style="width: 80%" >
+      <img style="width: 100%; height: auto" src="https://www.worldtravelguide.net/wp-content/uploads/2017/04/shu-USA-CA-SanDiego-439256962-Dancestrokes-copy.jpg">
+    </div>
+  </div>
+  <div class="section profile-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 ml-auto mr-auto text-left">
+          <ul class="list" #list_boardContent>
+          </ul>
+          <ul class="list" >
+            <li>
+              <h3 style="margin-top: 2em; font-weight: bold">Previous Editions</h3>
+              <p *ngFor="let eachGen of prevList; let i = index;">
+                <a class="alert-link" [routerLink] = '["../prev", i+1, eachGen[0]]'>{{i+1}}) {{eachGen[0]}}</a>
+                <small>(Certified trainees {{eachGen[1]}} people)</small>
+              </p>
+              <!--<p>-->
+                <!--<a class="alert-link" routerLink="../prev/1">1) Winter 2016</a> (Certified trainees 15 people)<br/>-->
+              <!--</p>-->
+              <!--<p>-->
+                <!--<a class="alert-link" routerLink="../prev/2">2) Summer 2016</a>-->
+              <!--</p>-->
+              <!--<p>-->
+                <!--<a class="alert-link" routerLink="../prev/3">3) Summer 2017</a>-->
+              <!--</p>-->
+              <!--<p>-->
+                <!--<a class="alert-link" routerLink="../prev/4">4) Winter 2017</a>-->
+              <!--</p>-->
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br/>
+    </div>
+  </div>
+</div>

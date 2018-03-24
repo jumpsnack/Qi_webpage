@@ -1,0 +1,11 @@
+{
+  "Certified Trainees": [
+    {"type": "trainee", "value": "Jack(Junhee)", "email": "j.jobs1028@gmail.com"},
+    {"value": "Eddie(Sangwon)", "email": "eddiesangwonkim@gmail.com"},
+    {"value": "Anna(Jihye)", "email":"pyojihye95@gmail.com"}
+  ],
+  "Relevance Links": [
+    {"type": "link", "value": "Flickr", "link": "https://www.flickr.com/photos/calit2/albums/72157669542334603"},
+    {"value": "", "link": ""}
+  ]
+}

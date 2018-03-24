@@ -1,0 +1,32 @@
+.page-header {
+    align-items: flex-end;
+}
+
+.page-header-xs {
+    min-height: 50vh !important;
+}
+
+.page-subtitle {
+    margin-bottom: 0.3em;
+    width: 100%;
+    font-size: 8vmin;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
+    float: right;
+    text-align: right;
+}
+
+.title {
+    font-size: 5vmin;
+}
+
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 2.8em;
+    }
+
+    .page-subtitle {
+        font-size: 5rem;
+    }
+}

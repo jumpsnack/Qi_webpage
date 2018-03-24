@@ -1,0 +1,10 @@
+{
+  "Certified Trainees": [
+    {"type": "trainee", "value": "Jack(Junhee)", "email": "j.jobs1028@gmail.com"},
+    {"value": "Mason(Changeun)", "email":"changajksl@gmail.com"}
+  ],
+  "Relevance Links": [
+    {"type": "link", "value": "Flickr", "link": "https://www.flickr.com/search/?text=korea%20iot"},
+    {"value": "", "link": ""}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "Executive Summary": [
+    {"type": "plain", "value": "The Internet of Things, also referred as ‘IoT’, has recently become popular amongst the IT savvy users. The IoT is defined as a new paradigm where information collected from various sensors can be shared through the Internet. The IoT paradigm opens several architectural challenges including self-organization, self-management, and self- deployment of smart objects. There is also the problem of minimizing the usage of limited resources on each device."},
+    {"value": "The various IoT technologies can be considered to improve the quality of our lives. There is an increase in interest by the healthcare industry to provide new IoT technologies that are helping people to treat illnesses more efficiently and effectively. The goal of this project is to expose students to the health-related IoT systems and explore ways to collect, transmit, and save data. In addition, they will be able to track and visualize the location of moving IoT sensors in real time."}
+  ],
+  "Program Overview": [
+    {"type": "plain", "value": "We propose to host up to eighteen students for this project. The students will be organized into three groups. Each group will consist of one student proficient in data sensing, other two students proficient in data collecting, and the others proficient in data storing."},
+    {"type": "ol", "value-list": [
+      {"type": "plain", "value": "The data sensor team will take responsibility for all hardware-related works, such as calibrating the sensors we consider, testing the communication modules (e.g. Bluetooth, WiFi, and cellular communication), and designing of a new protocol between sensors and mobile stations."},
+      {"value": "The data collection team will develop an App on Android or iOS to communicate with the sensors and the data server. This App will enable the transmission of the various data collected from the locally connected sensors to the central server via wireless communication. Furthermore, this App will support the visualization function to display its moving location and the received data in real time."},
+      {"value": "The data storage team will be saving the received data from all mobile stations and their locations into the database. This data will be displayed on a web browser or can be used later in various ways."}
+    ]},
+    {"type": "plain", "value": "This joint action will be a complex objective that requires close cooperation and coordination amongst the three teams in order for the project to be successful. We will select one best group among three groups based on their products."},
+    {"value": "Students will be given lectures on programming techniques, system architecture, usage of sensors, and various technical tools. They will be given the freedom to create the software platform for the health-related IoT system. In addition to the lectures, they will have a chance to ask questions and seek help in office hours. They will be presenting on their progress every week in a group meeting."},
+    {"value": "The technical part of the course will take 5 weeks at full-time (40 hours/week) for the project to be completed successfully."}
+  ],
+  "Student Selection": [
+    {"type": "plain", "value": "The project requires students to possess the following skill sets:"},
+    {"type": "ul", "value-list": [
+      {"type": "plain", "value": "Data collection and data storage: Students should have above average programming skills, such as C, C++ (for Arduino), Java, and Phyton."},
+      {"value": "Data sensor: Students should be familiar with the operation of hardware devices. It is preferred that the students have the following skills but not required:"},
+      {"value": "Relevant Android API or iOS API for Bluetooth Low Energy (BLE), WiFi, map display", "children": [
+        {"type": "ul", "value-list": [
+          {"type": "plain", "value": "Eclipse, Android studio or Xcode for iOS"},
+          {"value": "WiFi and Bluetooth API communication"},
+          {"value": "Maps by Google or Apple"},
+          {"value": "GIT tool/Github skills"},
+          {"value": "SDK (software developer kit) and NDK (Native Developer Kit) for Android"},
+          {"value": "GNU/Linux, Apache, MySQL (or Postgresql), PHP5 for developing server, and Command Line Interface (CLI) as Bash or Shell"}
+        ]}
+      ]}
+    ]},
+    {"type": "plain", "value": "It is proposed that QI will be involved in making the final selection of students based on resumes and skype interviews."}
+  ],
+  "Project Experience": [
+    {"type": "plain", "value": "Through this project, students will have an opportunity to attend and experience one of the top universities in the world, UC San Diego. They will be working amongst UC San Diego faculty, staff, and students and have the opportunity to meet and collaborate with them. Students will also be invited to attend Qualcomm Institute technical seminars and workshops. All UC San Diego libraries will also be available to the students."}
+  ],
+  "Project Requirement": [
+    {"type": "plain", "value": "It is required that every student brings his or her laptop for this project."},
+    {"value": "All outcomes from this project will belong to Qualcomm Institute, UCSD. However, we strongly expect that this project will be a good opportunity for the students to improve their ability to design and develop a similar system on their own."}
+  ]
+}

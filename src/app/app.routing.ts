@@ -25,6 +25,7 @@ const routes: Routes =[
 	{ path: 'publications',             component: PublicationsComponent },
 	{ path: 'members',             loadChildren: 'app/members/members.module#MembersModule' },
 	{ path: 'prototype',             component: PrototypeComponent },
+	{ path: 'iot-platform',         loadChildren: 'app/iot-platform/iot-platform.module#IotPlatformModule' },
 	{ path: 'contact',             component: ContactComponent },
 
     { path: 'user-profiles',     component: ProfileComponent },

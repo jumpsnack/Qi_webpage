@@ -23,40 +23,42 @@ import { ContactComponent } from './contact/contact.component';
 
 import { MembersModule } from "./members/members.module";
 import { AgmCoreModule } from '@agm/core';
+import { HttpClientModule } from "@angular/common/http";
 
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SignupComponent,
-    LandingComponent,
-    ProfileComponent,
-    NavbarComponent,
-    FooterComponent,
-    AboutComponent,
-    // NewsComponent,
-    ProjectComponent,
-    PublicationsComponent,
-    PrototypeComponent,
-    ContactComponent
-  ],
-  imports: [
-    BrowserModule,
-    NgbModule.forRoot(),
-    FormsModule,
-    RouterModule,
-    AppRoutingModule,
-    HomeModule,
-      MembersModule,
-      AgmCoreModule.forRoot({
-          apiKey: 'AIzaSyC8yg_gowVFOd_aIfPt4lYkGurpwbEoRbA'
-      })
-  ],
-    exports: [NgbModule],
-  providers: [
+	declarations: [
+		AppComponent,
+		SignupComponent,
+		LandingComponent,
+		ProfileComponent,
+		NavbarComponent,
+		FooterComponent,
+		AboutComponent,
+		// NewsComponent,
+		ProjectComponent,
+		PublicationsComponent,
+		PrototypeComponent,
+		ContactComponent
+	],
+	imports: [
+		BrowserModule,
+		NgbModule.forRoot(),
+		FormsModule,
+		RouterModule,
+		AppRoutingModule,
+		HomeModule,
+		MembersModule,
+		AgmCoreModule.forRoot({
+			apiKey: 'AIzaSyC8yg_gowVFOd_aIfPt4lYkGurpwbEoRbA'
+		}),
+        HttpClientModule
+	],
+	exports: [NgbModule],
+	providers: [
 
-  ],
-  bootstrap: [AppComponent]
+	],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
